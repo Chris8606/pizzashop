@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  flex: 0 0;
+}
+.container1{
+  min-height: 50px;
+  min-width: 981.600;
+  background-color: black;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/Home.jpg");
+  background-size: 105%;
+  background-size: cover;
+  background-position: 50% 0;
+  flex: 1 1;
+}
+.container2 {
+  align-self: center;
+  flex: 0 0;
+  padding: 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width: 1024px;
+  background-color: black;
+  opacity: 0.7;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+.footer {
+  min-height: 50px;
+  background-color: black;
+  flex: 0 0;
+}
+a {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.links {
+  padding-top:  5px;
+}
+.text{
+  color: #FFFFFF;
+  font-size: 30px;
+}

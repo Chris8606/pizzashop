@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  flex: 0 0;
+}
+.container1{
+  min-width: 981.600;
+  background-color: black;
+  text-align: center;
+  min-height: 50px;
+}
+a {
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+.bestelluebersicht{
+  font-size: 25px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+.links {
+  padding-top:  5px;
+  font-size: 30px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  background-image: url("images/Order.jpg");
+  background-position: 50% 0;
+  background-size: 100%;
+  background-size: cover;
+}
+.container2 {
+  flex: 0 0;
+  align-self: center;
+  padding: 20px;
+  margin-top: 100px;
+  max-width: 1024px;
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  opacity: 0.7;
+  font-size: 27px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
+
+.bestellung {
+    align-self:center;
+}
+table{
+    color: #FFFFFF;
+    text-align:center
+}
+
+.total_mehrBestellen{
+    font-size: 20px;
+
+}
+.total{
+    border-bottom: double 3px #FFFFFF;
+}
+
+.mehrBestellen{
+    position: absolute;
+}
+.dateAddressPhonenumber{
+    text-align: right;
+    font-size: 12px;
+}
+
+.footer {
+  flex: 0,0;
+  background-color: black;
+  min-height: 50px;
+}
